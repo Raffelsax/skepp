@@ -37,7 +37,7 @@ function shoot(){ //funktion för att bestämma om skottet är en träff eller m
 
     if (gameBoard[id] == 1){ // om id är lika med 1 finns det ett skepp
           
-        numHitsToWin--; // för varje träff minskar antal träffar för att vinna med 1
+        numHitsToWin--; // för varje träff minskar antal träffar som krävs för att vinna med 1
         $(this).html(`<img src="ship.jpg" width="50" height="50"/>`); // visar träff genom bild på brädet
     }
     else{
