@@ -24,7 +24,7 @@ function createMap(map){
     }
 }
 
-let numHitsToWin = 12 //Variabel för antal träffar som gräfs för att vinna, 12 eftersom skeppen är placerade i förväg.
+let numHitsToWin = 12 //Variabel för antal träffar som krävs för att vinna, 12 eftersom skeppen är placerade i förväg.
 
 createMap(gameBoard); // skapar karta
 
